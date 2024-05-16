@@ -47,7 +47,7 @@ trigger:
     displayName: 'Use .NET SDK 6.x'
     inputs:
       packageType: sdk
-      version: '6.x'
+      version: '7.x'
   
   - task: Npm@1
     displayName: 'Run npm install'
